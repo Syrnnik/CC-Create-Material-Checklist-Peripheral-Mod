@@ -29,13 +29,13 @@ Adds CC: Tweaked peripheral methods to placed Create Clipboards, allowing Lua sc
 [[dependencies.${mod_id}]]
     modId="create"
     type="required"
-    versionRange="[6.0.10,6.1.0)"
+    versionRange="${create_version_range}"
     ordering="AFTER"
     side="BOTH"
 
 [[dependencies.${mod_id}]]
     modId="computercraft"
     type="required"
-    versionRange="[1.119.0,)"
+    versionRange="${cc_tweaked_version_range}"
     ordering="AFTER"
     side="BOTH"

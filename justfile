@@ -67,15 +67,20 @@ lint:
     chmod +x ./gradlew
     ./gradlew check
 
+# Clean build outputs.
+clean:
+    chmod +x ./gradlew
+    ./gradlew clean
+
 # Build the mod jar.
 build:
     chmod +x ./gradlew
     ./gradlew build
 
-# Clean build outputs.
-clean:
-    chmod +x ./gradlew
-    ./gradlew clean
+# Build the mod jar.
+clean-build:
+    just clean
+    just build
 
 # Clean and build from scratch.
 rebuild:
