@@ -314,9 +314,3 @@ Use this for debugging:
 ```lua
 print(textutils.serialize(cb.getPages()))
 ```
-
-## License
-
-Currently set to `All Rights Reserved` in `gradle.properties`.
-
-Change `mod_license` before publishing if you want to use an open-source license.
